@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(32, 32, 32);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.game {
+    background-color: rgb(49, 49, 49);
+    padding: 16px;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+    color: ghostwhite;
+}
+
+h1 {
+    text-align: center;
+    font-size: 16px;
+    color: #deffc0;
+    font-family: "Montserrat";
+    margin-bottom: 16px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.cell {
+    background-color: azure;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.cell.active {
+    background: #111;
+}
+
+.cell.correct {
+    background: #22c55e;
+}
+
+.cell.wrong {
+    background: #ef4444;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    border: none;
+    background: #252525;
+    color: white;
+    cursor: pointer;
+}
