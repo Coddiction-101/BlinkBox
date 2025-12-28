@@ -1,18 +1,26 @@
 # BlinkBox 🧠⚡
 
-A minimal memory-based brain training game.
+BlinkBox is a minimal, fast-paced memory game that tests your focus and recall.  
+Watch carefully, remember the flash, and tap the correct block before your memory slips.
 
 ## How to Play
-1. Click **Start**
-2. One block flashes briefly
-3. Remember and tap the correct block
-4. Grid increases gradually
-5. Beat your best score
+- Press **Start** to begin
+- One block flashes briefly
+- Memorize the position
+- Tap the correct block
+- The grid grows as your score increases
+- Try to beat your best score
 
-## Tech Stack
+## Features
+- Single-block memory challenge
+- Progressive difficulty
+- Best score saved locally
+- Clean, mobile-friendly UI
+
+## Built With
 - HTML
 - CSS
 - JavaScript
 
 ## Live Demo
-https://coddiction-101.github.io/blinkbox/
+https://coddiction-101.github.io/BlinkBox/
